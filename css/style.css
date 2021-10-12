@@ -63,7 +63,7 @@ nav a{
   /* Requirement 1 code here*/
 }
 
-.txt:hover {
+nav a:hover {
     text-decoration: underline;
     /* Requirement 2 code here*/
 
@@ -80,7 +80,7 @@ nav a{
 
   /* Requirement 3a code here*/
   position: absolute;
-  top: -40 px;
+  top: -40px;
 }
 
 /* Requirement 3b code here*/
@@ -98,9 +98,9 @@ nav a{
 
 .container{
   display: grid;
-  grid-template-columns: 1fr 5 fr 1 fr;
+  grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: repeat(5,auto);
-  row-gap: 15px
+  row-gap: 15px;
   /* Requirement 5 code here*/
 
 }
@@ -117,6 +117,9 @@ header{
   /* YOUR CODE HERE; */
   grid-column: 1 / -1;
   grid-row: 1 / span 1;
+
+  background-image: url('../images/header.jpg');
+  background-repeat: no-repeat;
 }
 
 .about{
@@ -127,8 +130,19 @@ header{
 
 .method{
   grid-column: 2 / span 1;
-  grid-row: 3 span 1;
+  grid-row: 3 / span 1;
 }
+
+.clients {
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.contact{
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 1;
+}
+
 
 .about-image{
   grid-column: 1 / -1;
@@ -193,14 +207,12 @@ header{
    
   }
 
-  
-
-  .about-image{
-    grid-column: 2 / span 2;
-  
+  .about{
+    grid-column: 3 / span 2;
+    
   }
 
-  .about{
+  .clients{
     grid-column: 3 / span 2;
     
   }
@@ -210,31 +222,38 @@ header{
     
   }
 
+  .contact-image{
+    grid-column: 3 / span 2;
+    
+  }
+
   .method{
     grid-column: 2 / span 2;
    
   }
+
+  .contact{
+    grid-column: 2 /span 2;
+   
+ }
+
+  .about-image{
+    grid-column: 2 / span 2;
+  
+  }
+
+  
 
   .clients-image{
     grid-column: 2 / span 2;
     
   }
 
-  .clients{
-    grid-column: 3 / span 2;
+  
 
-    
-  }
+  
 
-  .contact-image{
-    grid-column: 3 / span 2;
-    
-  }
 
-  .contact{
-     grid-column: 2 /span 2;
-    
-  }
 
 }
 
