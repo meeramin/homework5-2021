@@ -63,8 +63,8 @@ nav a{
   /* Requirement 1 code here*/
 }
 
-nav a:hover {
-    text-decoration: underline;
+nav a:hover{
+  text-decoration: underline;
     /* Requirement 2 code here*/
 
 }
@@ -233,7 +233,7 @@ header{
   }
 
   .contact{
-    grid-column: 2 /span 2;
+    grid-column: 2 / span 2;
    
  }
 
