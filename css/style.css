@@ -157,7 +157,7 @@ header{
 .method-image{
   grid-column: 1 / -1;
   grid-row: 3 / span 1;
-  max-height: 700 px;
+  max-height: 700px;
   overflow: hidden;
  
 }
@@ -165,7 +165,7 @@ header{
 .clients-image{
   grid-column: 1 / -1;
   grid-row: 4 / span 1;
-  max-height: 700 px;
+  max-height: 700px;
   overflow: hidden;
 }
 
@@ -242,7 +242,6 @@ header{
   
   }
 
-  
 
   .clients-image{
     grid-column: 2 / span 2;
